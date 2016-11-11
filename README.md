@@ -18,7 +18,7 @@ code //代码区
 ```
 
 - 默认开启
-
+```
 .
 ├── README.md           
 ├── dist                     
@@ -35,5 +35,6 @@ code //代码区
 │   └── index.js             // 
 ├── 
 .
+```
 ## License
 MIT
