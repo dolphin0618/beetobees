@@ -1,0 +1,1 @@
+var commandTemplate = require('html!./test2.html');

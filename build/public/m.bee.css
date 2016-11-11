@@ -1,0 +1,18 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin: 0; padding: 0; }
+body {padding: 0;border: 0;margin: 0;font-family: 'Arial','Regular','Microsoft Yahei';background:#fff;font-size:0.44rem;}
+html {-ms-touch-action: none;}
+body,ul,p,h1{margin: 0;padding: 0;}
+html,body{height:100%;}
+ul{list-style: none;}
+a {-webkit-tap-highlight-color: transparent;-webkit-touch-callout: none;-webkit-user-select: none;text-decoration: none;}
+input{-webkit-appearance:none;}
+.fl{float: left;}
+.bgsize{background-size: 100%;background-repeat: no-repeat;}
+.clearfix:after{clear:both;display:block;visibility:hidden;height:0;line-height:0;content:"";}
+.body{min-height:100%;position: relative;z-index: 99;}
+
+.ipt{width: 13.12rem;height: 1.14rem;background: transparent;border: 1px solid #ccc;border-radius: 4px; padding: 0.1rem 0.3rem;outline: none;}
+.btn{width:13.72rem;line-height:1.34rem;background:#00a6ff;color:#fff;text-align: center;display: inline-block;border-radius:4px;}
+.btn.disable{background:#aed4fb;}
+.btn.black{background:#000;}
+.btn.black.disable{background:#c0c0c0;}
