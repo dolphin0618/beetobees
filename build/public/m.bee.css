@@ -12,7 +12,7 @@ input{-webkit-appearance:none;}
 .body{min-height:100%;position: relative;z-index: 99;}
 
 .ipt{width: 13.12rem;height: 1.14rem;background: transparent;border: 1px solid #ccc;border-radius: 4px; padding: 0.1rem 0.3rem;outline: none;}
-.btn{width:13.72rem;line-height:1.34rem;background:#00a6ff;color:#fff;text-align: center;display: inline-block;border-radius:4px;}
+.btn{width:13.72rem;line-height:1.34rem;background:#00a6ff;color:#fff;text-align: center;display: inline-block;border-radius:4px;font-size:0.6rem;;}
 .btn.disable{background:#aed4fb;}
 .btn.black{background:#000;}
 .btn.black.disable{background:#c0c0c0;}

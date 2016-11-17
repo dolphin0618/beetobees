@@ -1,1 +1,6 @@
-body{background: red;}
+/*个人中心导航*/
+.per-nav{ position: absolute; bottom: 0; height: 2rem; width: 100%; display: -webkit-box; box-shadow: 1px 0 6px 0 #ccc;background:#fff;}
+.per-nav .per-item{ -webkit-box-flex: 1; text-align: center; }
+.per-nav .per-icon{}
+.per-nav .per-icon.per-make{}
+.per-nav .per-name{}

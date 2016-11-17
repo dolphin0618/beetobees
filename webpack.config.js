@@ -40,7 +40,9 @@ var webpackConfig = {
 //  	}),
     ],
     externals: {//直接使用页面引入的全局变量，require时不打包到一起
-    	"vue": "Vue"
+    	"vue": "Vue",
+    	"vue-router":"VueRouter",
+    	"vue-touch-next":"VueTouch"
 	},
 	devServer:{
         contentBase:'./build/'

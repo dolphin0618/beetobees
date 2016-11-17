@@ -1,9 +1,38 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>2</title>
-	</head>
-	<body>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>赢销+</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="full-screen" content="true">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="360-fullscreen" content="true">
+    <meta name="apple-mobile-web-app-title" content="beetobees">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="./public/m.bee.css?0001"/>
+    <script src="./public/vue.min.js?0001"></script>
+    <script src="./public/vue-router.min.js?0001"></script>
+    <script src="./public/fetch.js?0001"></script>
+    <script src="./public/m.bee.js?0001"></script>
+</head>
+<body>
+	<section class="body" id="personal">
+	  	<router-view></router-view>
+		<div class="per-nav">
+			<div class="per-item">
+				<i class="per-icon per-make"></i>
+				<p class="per-name">模版制作</p>
+			</div>
+			<div class="per-item">
+				<i class="per-icon per-make"></i>
+				<p class="per-name">用户案例</p>
+			</div>
+			<div class="per-item">
+				<i class="per-icon per-make"></i>
+				<p class="per-name">个人中心</p>
+			</div>
+		</div>
+	</section>
+</body>
 </html>
