@@ -20,18 +20,18 @@
 	<section class="body" id="personal">
 	  	<router-view></router-view>
 		<div class="per-nav">
-			<div class="per-item">
+			<router-link to="/temp" class="per-item" tag="div" exact>
 				<i class="per-icon per-make"></i>
 				<p class="per-name">模版制作</p>
-			</div>
-			<div class="per-item">
-				<i class="per-icon per-make"></i>
+			</router-link>
+			<router-link to="/case" class="per-item" tag="div" exact>
+				<i class="per-icon per-case"></i>
 				<p class="per-name">用户案例</p>
-			</div>
-			<div class="per-item">
-				<i class="per-icon per-make"></i>
+			</router-link>
+			<router-link to="/" class="per-item" tag="div" exact>
+				<i class="per-icon per-pers"></i>
 				<p class="per-name">个人中心</p>
-			</div>
+			</router-link>
 		</div>
 	</section>
 </body>

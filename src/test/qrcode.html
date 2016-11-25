@@ -1,0 +1,40 @@
+<!DOCTYPE html">
+<html>
+<head>
+<title>Cross-Browser QRCode generator for Javascript</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+
+<script type="text/javascript" src="qrcode.js"></script>
+<script src="../../build/public/vue.min.js?0001"></script>
+</head>
+<body>
+<div  style="width:100px; height:100px; margin-top:15px;" id="app"><img id="qrcode" src="" alt="" />{{aa | qrcode}}</div>
+
+<script type="text/javascript">
+var qrcode = new QRCode({
+	width : 100,
+	height : 100
+});
+// 注册
+Vue.filter('qrcode', function (value) {
+  	// 返回处理后的值
+  	var dom = qrcode.makeCode(value, function(src){
+		document.getElementById('qrcode').src = src;
+		return src;
+	});
+	return false;
+});
+
+
+var app = new Vue({
+	data : function(){
+		return {
+			aa : 33
+		}
+	}
+}).$mount('#app');
+
+
+</script>
+</body>

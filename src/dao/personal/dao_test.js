@@ -1,24 +1,12 @@
 //
-//登录
+//获取模版类型
 var dao = {};
-dao.login = function(form, fn){
-	fn && fn(false);
+dao.getTypes = function(fn){
+	var data = [{id:'01',name:'全部'},{id:'02',name:'全部'},{id:'03',name:'全部'},{id:'04',name:'全部'}]
+	fn && fn(data);
+	
+	//计算有效期
 }
 
-//获取验证码(找回密码)
-dao.getCode = function(param, fn){
-	console.log(param);
-	fn(123);
-}
-
-//(找回密码)
-dao.savepwd = function(form, fn){
-	fn && fn(true);
-}
-
-//注册
-dao.register = function(form, fn){
-	fn && fn(true);
-}
 
 module.exports = dao;

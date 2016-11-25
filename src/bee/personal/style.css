@@ -1,6 +1,25 @@
+.scroll-box{padding-bottom:2rem;}
 /*个人中心导航*/
-.per-nav{ position: absolute; bottom: 0; height: 2rem; width: 100%; display: -webkit-box; box-shadow: 1px 0 6px 0 #ccc;background:#fff;}
-.per-nav .per-item{ -webkit-box-flex: 1; text-align: center; }
-.per-nav .per-icon{}
-.per-nav .per-icon.per-make{}
-.per-nav .per-name{}
+body{overflow:hidden;}
+.per-nav{ position:absolute; bottom: 0; height: 1.76rem;padding-top: 0.2rem; width: 100%; display: -webkit-box; box-shadow: 1px 0 6px 0 #ccc;background:#fff;}
+.per-nav .per-item{text-align: center; -webkit-box-flex: 1;  }
+.per-nav .per-icon{width: 0.96rem;height: 0.96rem;background-repeat:no-repeat;background-size:100%;display:inline-block;}
+.per-nav .per-icon.per-make{background-image:url(./icon/nav1.png);}
+.per-nav .per-icon.per-case{background-image:url(./icon/nav2.png);}
+.per-nav .per-icon.per-pers{background-image:url(./icon/nav3.png);}
+.per-nav .per-name{font-size:0.44rem;color:#8b95a3;line-height: 0.76rem;}
+.per-nav .per-item.router-link-active .per-name{color:#44b2ff;}
+/*功能菜单*/
+.layerfn{ position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.1); z-index: 1; }
+.windowfn{ position: absolute; bottom: 0; background: #f3f3f3; width: 100%; height:6.7rem; }
+.windowfn .btns-box{padding: 0 0.94rem;display: -webkit-box;text-align: center;margin-top: 1.4rem;}
+.windowfn .item{-webkit-box-flex: 1;width: 1.8rem;}
+.windowfn .item i{ width: 1.8rem; height: 1.8rem; display: block; margin: 0 auto; background-repeat: no-repeat; background-size: 100%; }
+.windowfn .item .edit{ background-image: url(./icon/edit.png); }
+.windowfn .item .copy{ background-image: url(./icon/copy.png); }
+.windowfn .item .clear{ background-image: url(./icon/clear.png); }
+.windowfn .item .quit{ background-image: url(./icon/quit.png); }
+.windowfn .item .view{ background-image: url(./icon/view.png); }
+.windowfn .item .name{ color: #333; font-size: 0.44rem; line-height: 1.24rem; }
+.windowfn .close{width: 100%; height: 1.32rem; display: block; background: #fdfcfc; text-align: center; position: absolute; bottom: 0;}
+.windowfn .close i{width:0.64rem;height:0.64rem;background:url(./icon/close.png) no-repeat;background-size:100%;display: inline-block;margin-top: 0.32rem;}
